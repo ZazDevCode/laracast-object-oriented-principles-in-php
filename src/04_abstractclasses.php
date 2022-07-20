@@ -30,5 +30,5 @@ class FirstThousandPoints extends AchievementType
 }
 
 
-$achievement = new ReachTop50();
+$achievement = new FirstThousandPoints();
 echo $achievement->qualifier('user');
